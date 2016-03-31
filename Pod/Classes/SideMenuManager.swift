@@ -16,7 +16,7 @@
     SideMenuManager.menuAddScreenEdgePanGesturesToPresent(toView: self.navigationController!.view)
 */
 
-public class SideMenuManager {
+public class SideMenuManager : NSObject {
     
     public enum MenuPresentMode {
         case MenuSlideIn
