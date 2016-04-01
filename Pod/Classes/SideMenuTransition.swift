@@ -8,7 +8,7 @@
 
 import UIKit
 
-internal class SideMenuTransition: NSObject, UIPercentDrivenInteractiveTransition, UIViewControllerAnimatedTransitioning, UIViewControllerTransitioningDelegate {
+internal class SideMenuTransition: UIPercentDrivenInteractiveTransition, UIViewControllerAnimatedTransitioning, UIViewControllerTransitioningDelegate {
     
     private var presenting = false
     private var interactive = false
